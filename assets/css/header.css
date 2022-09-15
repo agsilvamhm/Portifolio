@@ -14,3 +14,43 @@
     text-align: center;
     font-family: 'Neue Machina';  
 }
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.information p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5.rem;
+}
+
+.information p::before{
+    content:'';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat ;
+    background-size: contain;
+    margin-right: .5rem;
+}    
+
+.information .job::before{
+    background-image: url(../imagens/icons/Job.jpg);
+}
+
+.information .location::before{
+    background-image: url(../imagens/icons/Localizacao.jpg);
+}
+
+.information .phone::before{
+    background-image: url(../imagens/icons/phone.jpg);
+}
+
+.information .email::before{
+    background-image: url(../imagens/icons/email.jpg);
+}
