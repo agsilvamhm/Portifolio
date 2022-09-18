@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/acordeon.css">
+    <link rel="stylesheet" href="./assets/css/languages.css">
+    <link rel="stylesheet" href="./assets/css/portifolio.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +22,7 @@
     
 </head>
 <body>
-    <div class="main">
+    <main class="main">
         <header class="header">
             <img src="./assets/imagens/Foto-Adalberto.jpg" alt="Foto do Adalberto Gonçalves da Silva" class="foto">
     
@@ -38,13 +40,26 @@
             <button class="trigger" type="button">Idiomas</button>
 
             <div class="content">
-                <ul>
+                <ul class="languages">
                     <li>Português</li>
                     <li>Inglês</li>
                 </ul>
             </div>
         </section>
-    </div>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">Portifólio</button>
+
+            <div class="content">
+                <ul class="portifolio">
+                    <li>
+                        <span>Title</span>
+                        <a href=""></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
     
 </body>
 </html>
