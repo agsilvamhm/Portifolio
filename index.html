@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./assets/css/acordeon.css">
     <link rel="stylesheet" href="./assets/css/languages.css">
     <link rel="stylesheet" href="./assets/css/portifolio.css">
+    <link rel="stylesheet" href="./assets/css/experience.css">
+    <link rel="stylesheet" href="./assets/css/skill.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,13 +33,17 @@
             <div class="information">
                 <p class="job">Analista de negócios na Smilego</p>
                 <p class="location">Campina Grande - PB</p>
-                <p class="phone">(83) 99975-2200</p>
-                <p class="email">agsilva.mhm@gmail.com</p>
+                <p class="phone">
+                    <a href="tel:(83) 99975-2200">(83) 99975-2200</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:agsilva.mhm@gmail.com">agsilva.mhm@gmail.com</a>
+                </p>
             </div>
         </header>
 
-        <section class="acordeon open">
-            <button class="trigger" type="button">Idiomas</button>
+        <section class="acordeon">
+            <button class="trigger" type="button"><h2>Idiomas</h2></button>
 
             <div class="content">
                 <ul class="languages">
@@ -47,18 +53,65 @@
             </div>
         </section>
 
-        <section class="acordeon open">
-            <button class="trigger" type="button">Portifólio</button>
+        <section class="acordeon">
+            <button class="trigger" type="button"><h2>Portifólio</h2></button>
 
             <div class="content">
                 <ul class="portifolio">
                     <li>
-                        <span>Title</span>
-                        <a href="#">www.google.com</a>
+                        <h3 class="title github">Formação JavaScript Developer</h3>
+                        <a href="https://github.com/agsilvamhm/JavaScriptDeveloper" target="_blank">www.google.com</a>
                     </li>
                 </ul>
             </div>
         </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button"><h2>Experiência profissional</h2></button>
+
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <span class="title">Front-End Developer - Smilego</span>
+                        <span class="periodo">Março/2022 - Atualmente</span>
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor nemo nostrum fugiat, excepturi velit natus dolorem reiciendis veritatis, recusandae autem, suscipit modi! Suscipit porro libero recusandae expedita nihil eaque vel.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button"><h2>Skills</h2></button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas</h3>
+                        <ul>
+                            <li>
+                                <img src="./assets/imagens/LogosTecnologias_PNG/java.png" alt="Java" title="Java"> 
+                            </li>
+                            <li>
+                                <img src="./assets/imagens/LogosTecnologias_PNG/js.png" alt="JavaScript" title="JavaScript"> 
+                            </li>
+                            <li>
+                                <img src="./assets/imagens/LogosTecnologias_PNG/postgres.png" alt="PostGres" title="PostGres"> 
+                            </li>
+                        </ul>
+                    </section>
+    
+                    <section class="personal">
+                        <h3>Pessoal</h3>
+                        <ul>
+                            <li>Liderança</li>
+                            <li>Facilidade de comunicação</li>
+                        </ul>
+                    </section>
+                </div>
+
+            </div>
+        </section>
+
     </main>
     
 </body>
