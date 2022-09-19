@@ -7,3 +7,28 @@
     padding: 0;
     list-style: none;
 }
+
+.portifolio li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 1rem 0;
+}
+
+.portifolio li .title.github{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.portifolio li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.portifolio li a:hover{
+    text-decoration: underline;
+}
