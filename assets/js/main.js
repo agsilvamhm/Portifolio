@@ -4,7 +4,7 @@ function updateProfileInfo(profileData){
     photo.alt = profileData.name
 
     const name = document.getElementById('profile.name')
-    name.innerHTML = profileData.name
+    name.innerText = profileData.name
 }
 
 
