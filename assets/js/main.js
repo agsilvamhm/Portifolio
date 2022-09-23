@@ -11,5 +11,5 @@ function updateProfileInfo(profileData){
 (async () => {
     const profileData = await fetchProfileDetail()
     updateProfileInfo(profileData)
-    //console.log(profileData)
+    console.log(profileData)
 })()
