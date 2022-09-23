@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.header .foto{
+.header .photo{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -65,7 +65,7 @@
         ;
     }
 
-    .header .foto {
+    .header .photo {
         grid-area: foto;
         margin: 0 auto;
     }

@@ -28,18 +28,18 @@
 <body>
     <main class="main">
         <header class="header">
-            <img src="./assets/imagens/Foto-Adalberto.jpg" alt="Foto do Adalberto Gonçalves da Silva" class="foto">
+            <img id="profile.photo" src="./assets/imagens/Foto-Adalberto.jpg" alt="Foto de perfil" class="photo profile.photo">
     
-            <h1 class="title">Olá,<br> eu sou o Adalberto Gonçalves da Silva</h1>
+            <h1 class="title">Olá,<br> eu sou <span id="profile.name">Adalberto Gonçalves da Silva</span></h1>
     
             <div class="information">
-                <p class="job">Analista de negócios na Smilego</p>
-                <p class="location">Campina Grande - PB</p>
+                <p class="job"><span class="profile.job">Analista de negócios na Smilego</span></p>
+                <p class="location"><span class="profile.notation">Campina Grande - PB</span></p>
                 <p class="phone">
-                    <a href="tel:(83) 99975-2200">(83) 99975-2200</a>
+                    <a href="tel:(83) 99975-2200"><span class="profile.phone">(83) 99975-2200</span></a>
                 </p>
                 <p class="email">
-                    <a href="mailto:agsilva.mhm@gmail.com">agsilva.mhm@gmail.com</a>
+                    <a href="mailto:agsilva.mhm@gmail.com"><span class="profile.email">agsilva.mhm@gmail.com</span></a>
                 </p>
             </div>
         </header>
@@ -82,7 +82,7 @@
             </div>
         </section>
 
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button"><h2>Skills</h2></button>
 
             <div class="content">
