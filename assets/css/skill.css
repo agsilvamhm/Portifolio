@@ -16,6 +16,7 @@
 
 .skill .tools ul li img{
     max-width: 50px;
+    max-height: 50px;
     margin: 0 .5rem;
 }
 
