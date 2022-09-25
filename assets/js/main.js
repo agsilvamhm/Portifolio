@@ -22,9 +22,14 @@ function updateProfileInfo(profileData){
 
 }
 
+function updateSoftSkills(profileData){
+    const softsSkills = document.getElementById('profile.skills.softSkills')
+    softsSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+}
 
 (async () => {
     const profileData = await fetchProfileDetail()
     updateProfileInfo(profileData)
-    console.log(profileData)
+    updateSoftSkills(profileData)
+  //  console.log(profileData)
 })()
