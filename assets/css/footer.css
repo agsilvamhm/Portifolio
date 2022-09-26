@@ -1,0 +1,7 @@
+footer {
+   /* display: flex;
+    flex-direction: row; */
+}
+footer img{
+    max-width: 100px;
+}
